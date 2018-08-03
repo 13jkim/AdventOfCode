@@ -29,4 +29,39 @@ public class CaptchaDay1Test {
         int expected = 9;
         assertEquals(expected, CaptchaDay1.inverseCaptcha(captcha));
     }
+
+    @Test
+    public void test1CaptchaPt2() {
+        String captcha = "1212";
+        int expected = 6;
+        assertEquals(expected, CaptchaDay1.inverseCaptchaPt2(captcha));
+    }
+
+    @Test
+    public void test2CaptchaPt2() {
+        String captcha = "1221";
+        int expected = 0;
+        assertEquals(expected, CaptchaDay1.inverseCaptchaPt2(captcha));
+    }
+
+    @Test
+    public void test3CaptchaPt2() {
+        String captcha = "123425";
+        int expected = 4;
+        assertEquals(expected, CaptchaDay1.inverseCaptchaPt2(captcha));
+    }
+
+    @Test
+    public void test4CaptchaPt2() {
+        String captcha = "123123";
+        int expected = 12;
+        assertEquals(expected, CaptchaDay1.inverseCaptchaPt2(captcha));
+    }
+
+    @Test
+    public void test5CaptchaPt2() {
+        String captcha = "12131415";
+        int expected = 4;
+        assertEquals(expected, CaptchaDay1.inverseCaptchaPt2(captcha));
+    }
 }
