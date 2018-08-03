@@ -5,10 +5,6 @@ import static org.junit.Assert.*;
 
 public class CaptchaDay1Test {
 
-    @Before
-    public void setUp() {
-    }
-
     @Test
     public void testCaptcha1() {
         String captcha = "1122";

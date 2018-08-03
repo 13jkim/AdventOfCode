@@ -25,13 +25,37 @@
       <file leaf-file-name="CaptchaDay1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CaptchaDay1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+            <state relative-caret-position="105">
+              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CaptchaDay1Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CorruptionChecksum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CorruptionChecksum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CorruptionChecksumTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CorruptionChecksumTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CaptchaDay1Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CaptchaDay1Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -78,8 +102,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/CaptchaDay1Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/CaptchaDay1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CaptchaDay1Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CorruptionChecksumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CorruptionChecksum.java" />
       </list>
     </option>
   </component>
@@ -163,8 +189,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
@@ -188,11 +214,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CaptchaDay1">
+  <component name="RunManager" selected="Application.CorruptionChecksum">
     <configuration name="CaptchaDay1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CaptchaDay1" />
       <module name="adventOfCode" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="CorruptionChecksum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CorruptionChecksum" />
+      <module name="adventOfCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -231,30 +262,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CaptchaDay1Test.testCaptcha2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AdventOfCode" />
+    <configuration name="CorruptionChecksumTest.testCheckSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adventOfCode" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CaptchaDay1Test" />
-      <option name="METHOD_NAME" value="testCaptcha2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CaptchaDay1Test.testCaptcha3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AdventOfCode" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CaptchaDay1Test" />
-      <option name="METHOD_NAME" value="testCaptcha3" />
+      <option name="MAIN_CLASS_NAME" value="CorruptionChecksumTest" />
+      <option name="METHOD_NAME" value="testCheckSum" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -305,18 +319,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.CaptchaDay1" />
-      <item itemvalue="JUnit.CaptchaDay1Test.testCaptcha2" />
       <item itemvalue="JUnit.CaptchaDay1Test" />
-      <item itemvalue="JUnit.CaptchaDay1Test.testCaptcha3" />
       <item itemvalue="JUnit.CaptchaDay1Test.test1CaptchaPt2" />
+      <item itemvalue="JUnit.CorruptionChecksumTest.testCheckSum" />
+      <item itemvalue="Application.CorruptionChecksum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CorruptionChecksum" />
+        <item itemvalue="JUnit.CorruptionChecksumTest.testCheckSum" />
+        <item itemvalue="JUnit.CaptchaDay1Test" />
         <item itemvalue="Application.CaptchaDay1" />
         <item itemvalue="JUnit.CaptchaDay1Test.test1CaptchaPt2" />
-        <item itemvalue="JUnit.CaptchaDay1Test" />
-        <item itemvalue="JUnit.CaptchaDay1Test.testCaptcha3" />
-        <item itemvalue="JUnit.CaptchaDay1Test.testCaptcha2" />
       </list>
     </recent_temporary>
   </component>
@@ -331,14 +345,11 @@
       <option name="presentableId" value="Default" />
       <updated>1533308526189</updated>
       <workItem from="1533308533464" duration="1153000" />
-      <workItem from="1533310014943" duration="616000" />
+      <workItem from="1533310014943" duration="3711000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CaptchaDay1Test_testCaptcha1 - 2018.08.03 at 11h 13m 26s.xml">
-      <configuration name="CaptchaDay1Test.testCaptcha1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CaptchaDay1Test_testCaptcha2 - 2018.08.03 at 11h 14m 41s.xml">
       <configuration name="CaptchaDay1Test.testCaptcha2" configurationId="JUnit" />
     </history-entry>
@@ -357,9 +368,30 @@
     <history-entry file="CaptchaDay1Test - 2018.08.03 at 11h 20m 28s.xml">
       <configuration name="CaptchaDay1Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CaptchaDay1Test - 2018.08.03 at 11h 37m 18s.xml">
+      <configuration name="CaptchaDay1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CaptchaDay1Test_test1CaptchaPt2 - 2018.08.03 at 11h 38m 07s.xml">
+      <configuration name="CaptchaDay1Test.test1CaptchaPt2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CaptchaDay1Test - 2018.08.03 at 11h 40m 00s.xml">
+      <configuration name="CaptchaDay1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CorruptionChecksumTest_testCheckSum - 2018.08.03 at 11h 55m 28s.xml">
+      <configuration name="CorruptionChecksumTest.testCheckSum" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1769000" />
+    <option name="totallyTimeSpent" value="4864000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -374,12 +406,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32859176" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32859176" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32859176" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -426,13 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CaptchaDay1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -440,10 +465,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CaptchaDay1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CaptchaDay1Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CorruptionChecksumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CorruptionChecksum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
